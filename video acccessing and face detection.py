@@ -1,4 +1,4 @@
-    import cv2
+import cv2
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades+'haarcascade_frontalface_default.xml') #face properties cascade file
 cap = cv2.VideoCapture(0)    #to access cam
 if cap.isOpened():
